@@ -1,20 +1,18 @@
-# WeatherAlarmClock 天气闹钟
+# WeatherAlarmClock
 
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/logo.png)
 
-简介
+Introduction
 -----------------
-天气闹钟是一款具有天气提醒功能的闹钟，灵感来自于出门前经常忘记看天气预报没有带伞而淋雨的尴尬情况。
+The weather alarm clock is an alarm clock with a weather reminder. It is inspired by the embarrassing situation of forgetting to watch the weather forecast without an umbrella before going out.
 
-主要功能：闹钟、天气预报、计时器、录音、城市管理、城市搜索、自动定位、主题切换、扫描二维码，创造二维码、清除缓存、一键清理等。
+Main functions: alarm clock, weather forecast, timer, recording, city management, city search, automatic positioning, theme switching, scanning QR code, creating QR code, clearing cache, one-click cleaning, etc.
 
-### 扫码下载:
+### Scan code download:
 
-![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/qrcode.png)
 
-[下载链接](http://zhushou.360.cn/detail/index/soft_id/3242718)
 
-截图
+Screenshot
 --------------
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/1.jpeg)
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/2.jpeg)
@@ -36,22 +34,22 @@
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/18.jpeg)
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/19.jpeg)
 
-参考项目
+Reference item
 --------------
 
-* [ZXingLib](https://github.com/xuyisheng/ZXingLib) 参考二维码扫描
-* [SimplifyReader](https://github.com/SkillCollege/SimplifyReader)   参考浏览本地图片
-* [superCleanMaster](https://github.com/joyoyao/superCleanMaster)  参考内存清理
-* [TimerView](https://github.com/pheynix/TimerView)  参考自定义计时器绘制
-* [AndroidDaemonService](https://github.com/D-clock/AndroidDaemonService)  参考灰色保活
+* [ZXingLib](https://github.com/xuyisheng/ZXingLib) Reference QR code scanning
+* [SimplifyReader](https://github.com/SkillCollege/SimplifyReader)   See browsing local images
+* [superCleanMaster](https://github.com/joyoyao/superCleanMaster)  Reference memory cleanup
+* [TimerView](https://github.com/pheynix/TimerView)  Refer to custom timer drawing
+* [AndroidDaemonService](https://github.com/D-clock/AndroidDaemonService)  Reference gray keep alive
 
-为天气闹钟而诞生的库
----------------
+Library created for the weather alarm clock
+-------------------------------------------
 * [WeatherChartView](https://github.com/kaku2015/WeatherChartView) 
 
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/wcv.png)
 
-用到的开源库
+Open source library
 -------------
 * [PagerSlidingTabStrip](https://github.com/astuetz/PagerSlidingTabStrip) 
 * [leakcanary](https://github.com/square/leakcanary) 
@@ -74,29 +72,26 @@
 * [locSDK](http://lbsyun.baidu.com/)
 
 
-关于天气闹钟
+About the weather alarm clock
 ---------------
-本项目采用的是传统的MVC架构模式，是本人接触Android之后作为入门练习的首个作品，由于项目初期对Android编程知识以及对这个行业的了解有限，因此本人没有将当前的主流架构和开源库如:MVP、Rxjava、Retrofit、Dagger等运用到这个项目中。
+This project adopts the traditional MVC architecture mode. It is the first work of the introduction exercise after I contacted Android. Due to the limited knowledge of Android programming and the industry in the initial stage of the project, I did not have the current mainstream architecture and open source library. Such as: MVP, Rxjava, Retrofit, Dagger, etc. applied to this project.
 
-由于小弟才疏学浅，目前也不是从事Android行业的，代码之中肯定存在诸多不足，但是本着学习和分享的态度，希望得到大家的指点和帮助。如果觉得还不错，欢迎大家的多多star喽╭(╯3╰)╮
+Because the younger brother is too shallow to learn, and is not currently engaged in the Android industry, there must be many shortcomings in the code, but in the attitude of learning and sharing, I hope to get your guidance and help. If you feel that it is not bad, welcome everyone to star喽╭(╯3╰)╮
 
-关于我
+about me
 ---------------
-在开发天气闹钟期间也遇到了大大小小的问题，但是最终大部分问题都得以解决。由于本人文笔不佳再加上业余时间不多，很多问题的思考解决过程没有及时总结记录，深感遗憾::>_<::，今后我会尽量养成即使总结的好习惯!方便自己的同时也希望能帮到更多的人。
-
-邮箱: kaku201313@163.com
-
-CSDN: http://blog.csdn.net/kaku2013
+I also encountered large and small problems during the development of the weather alarm, but in the end most of the problems were solved. Due to my poor writing and less spare time, many problems are not resolved in a timely manner. I am deeply sorry::__<:: In the future, I will try my best to develop a good habit even if I summarize it! I also hope to help more people.
 
 
-后续
+
+Follow-up
 ---------------
-今后有时间我会继续对这个项目进行维护和增加一些新功能甚至进行重构。
-接下来我会采用MVP架构，并使用当前主流开源库:Rxjava、Retrofit2、Dagger2等开发一款崭新的Material风格App,也算是对大神们的膜拜和对自己的一个进阶吧。目前已进入着手中，敬请期待……
+I will continue to maintain this project and add some new features and even refactoring in the future.
+Next, I will adopt the MVP architecture and use the current mainstream open source libraries: Rxjava, Retrofit2, Dagger2, etc. to develop a brand new Material style app, which is also a worship of the great gods and an advanced for them. I am now in the hands, so stay tuned...
 
 PS
 ---------------
-闹钟的主要任务当然就是准时响铃，准时响铃的前提是程序没有被kill掉，但是鉴于目前的Adroid的生态系统，想做到不被系统和第三方软件kill还是有一定的限制和难度的，对于这个问题本人也是绞尽脑汁，网上说的各种方法也都试遍了，大多也都没有效果，目前对于Android5.0以上系统最后也没能有一个完美的解决办法。为了确保能按时响铃，还是建议将天气闹钟加入保护名单。当然如果各位大神有什么好的办法还望不吝赐教，小弟不胜感激。
+The main task of the alarm clock is of course the bell on time. The premise of punctual ringing is that the program has not been killed. However, given the current ecosystem of Adroid, it is still limited and difficult to be killed by the system and third-party software. I am also trying my best to solve this problem. I have tried all kinds of methods on the Internet. Most of them have no effect. At present, I have not been able to have a perfect solution for Android5.0 and above. To ensure that you can ring on time, it is recommended to add a weather alarm to your protection list. Of course, if you have any good ideas for the great gods, you will be grateful.
 
 License
 ---------------

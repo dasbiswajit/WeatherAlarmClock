@@ -8,8 +8,8 @@ The weather alarm clock is an alarm clock with a weather reminder. It is inspire
 
 Main functions: alarm clock, weather forecast, timer, recording, city management, city search, automatic positioning, theme switching, scanning QR code, creating QR code, clearing cache, one-click cleaning, etc.
 
-### Scan code download:
-
+### PlayStore Link:
+<a href='https://play.google.com/store/apps/details?id=com.bisw.weac&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 
 Screenshot
@@ -93,10 +93,13 @@ PS
 ---------------
 The main task of the alarm clock is of course the bell on time. The premise of punctual ringing is that the program has not been killed. However, given the current ecosystem of Adroid, it is still limited and difficult to be killed by the system and third-party software. I am also trying my best to solve this problem. I have tried all kinds of methods on the Internet. Most of them have no effect. At present, I have not been able to have a perfect solution for Android5.0 and above. To ensure that you can ring on time, it is recommended to add a weather alarm to your protection list. Of course, if you have any good ideas for the great gods, you will be grateful.
 
+
 License
 ---------------
   ```
+   Copyright (c) 2018 Biswajit <Biswajitbangalore@gmail.com>
    Copyright (c) 2016 咖枯 <kaku201313@163.com>
+
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
